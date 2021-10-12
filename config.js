@@ -2,10 +2,10 @@ const env = process.env;
 
 const config = {
   db: { /* do not put password or any sensitive info here, done only for demo */
-    host: env.DB_HOST || 'remotemysql.com',
-    user: env.DB_USER || '2ZE90yGC6G',
-    password: env.DB_PASSWORD || 'JZFqXibSmX',
-    database: env.DB_NAME || '2ZE90yGC6G',
+    host: env.DB_HOST || 'mariadb',
+    user: env.DB_USER || 'user1',
+    password: env.DB_PASSWORD || 'master',
+    database: env.DB_NAME || 'test',
     waitForConnections: true,
     connectionLimit: env.DB_CONN_LIMIT || 2,
     queueLimit: 0,
