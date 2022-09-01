@@ -5,7 +5,7 @@ const config = {
     host: env.DB_HOST || 'mariadb',
     user: env.DB_USER || 'user1',
     password: env.DB_PASSWORD || 'master',
-    database: env.DB_NAME || 'test',
+    database: env.DB_NAME || 'sampledb',
     waitForConnections: true,
     connectionLimit: env.DB_CONN_LIMIT || 2,
     queueLimit: 0,
